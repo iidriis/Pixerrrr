@@ -1,0 +1,98 @@
+.footer{
+    &__footer-top{
+        padding-bottom: 50px;
+        padding-top: 56px;
+        h2{
+            color: white;
+            @include site-title;
+        }
+        h3{
+            color: white;
+            @include site-subtitle;
+        }
+        text-align: center;
+        background-color: #00BAFC;
+    }
+    &__form{
+        padding-top: 10px;
+        padding-left: 24px;
+    }
+    &__form-btn{
+        margin-top: 15px;
+        margin-left: -23px;
+        border: none;
+        @include site-btn;
+    }
+    &__form-btn:hover{
+        background: rgba(0, 186, 252, 0.8);
+    }
+    &__form-btn:active{
+        background: rgba(0, 186, 252, 0.6);
+    }
+
+    &__form-section{
+        margin-left: auto;
+        margin-top: 24px;
+        margin-right: auto;
+        width:348px;
+        height: 280px;
+        background-color: white;
+        border-radius: 5px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    &__input{
+        margin-top: 16px;
+        background-color: black;
+        outline: none;
+        border: none;
+        padding: 16px 100px 16px 16px;
+        border-radius: 5px;
+        background-color: #F3F3F3;
+        align-items: center;
+        display: block;
+    }
+    /* END */
+    &__end{
+        display: flex;
+        color: white;
+        background-color: #191919;
+    }
+    &__end-text-wrapper{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 56px;
+    }
+    &__end-nav{
+        margin-right: 100px;
+        margin-top: 56px;
+    }
+    &__end-list{
+        list-style: none;
+    }
+    &__end-item{
+
+        cursor: pointer;
+    }
+    &__end-item:active{
+        color: #012e3e;
+    }
+    &__end-item:hover{
+        color: #00BAFC;
+    }
+    &__end-social-link{
+        margin-top: 56px;
+        align-items: center;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #00BAFC;
+        }
+        a:active{
+            color: #046285;
+        }
+
+    }
+}

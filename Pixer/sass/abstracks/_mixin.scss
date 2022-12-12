@@ -1,0 +1,31 @@
+@mixin container($width) {
+    width: 100%;
+    max-width: $width;
+    padding-right:2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+@mixin site-subtitle{
+    font-weight:400;
+    font-size:16px;
+    line-height: 24px;
+    color: block;
+}
+@mixin site-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.2px;
+    text-align: center;
+}
+@mixin site-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: $btn-color;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+    
+}
